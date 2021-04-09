@@ -15,10 +15,14 @@ If we determine the level of significance is 0.05.
 All manufacturing lots generally are not statistically different from the population mean of 1,500 pounds per square inch as the p-value is larger than the threshold.  
 Manufacturing lot #1 and lot #2 are not statistically different from the population mean as the p-value for these two items are much larger than the threshold.  
 Manufacturing lot #3 is statistically different from the population mean as the p-value is smaller than the threshold.  
+![3_all_manufacturing_lot.PNG](image/3_all_manufacturing_lot.PNG)
+![3_manufacturing_lot_1.PNG](image/3_manufacturing_lot_1.PNG)  
+![3_manufacturing_lot_2.PNG](image/3_manufacturing_lot_2.PNG)
+![3_manufacturing_lot_3.PNG](image/3_manufacturing_lot_3.PNG)  
 ## Study Design: MechaCar vs Compeition
 A study is planned to conduct and explore the relationship between the maintenance cost of cars with and without AWD.  
-1. For the competition, the metric to test is the maintenance cost categorized by . 
+1. For the competition, the metric to test is the maintenance cost categorized by w/wo AWD cars.  
 2. Null hypothesis: Cars with AWD or without AWD have the same maintenance cost.  
 Alternative hypothesis: Cars with AWD has different maintenance cost compared to the ones without AWD.  
 3. The statistical test used in this case is ANOVA test as the test is to explore the mean difference between different categorical groups (in this case, AWD and without AWD). The p-value calculated can be used to determine if null hypothesis is acceptable or not.  
-4. 
+4. The data needed is the column of monthly maintenance fee for each vehicle in MechaCar_mpg dataset.  

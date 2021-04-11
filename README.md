@@ -5,7 +5,7 @@ R, RStudio, tidyverse library collections, jsonlite library, ggplot2 library, t-
 2. No, the slope of the linear model should not be considered to be zero as the slope of the linear model is composed of five different values according to the screen capture below.  
 3. It can be observed that the R-squared value (Multiple R-squared: 0.7149, Adjusted R-squared: 0.6825) reasonably explains a decent percentage of data points that could describe such dependent results through this linear model. Therefore, the linear model predicts the mpg of MechaCar prototypes effectively. 
 ![1_linear_model.PNG](image/1_linear_model.PNG)  
-![1_linear_model_summary.PNG](image/1_linear_model.PNG)  
+![1_linear_model_summary.PNG](image/1_linear_model_summary.PNG)  
 ## Summary Statistics on Suspension Coils
 Overall, the variance across all the manufacturing lots is around 62.3, which satisfies the design specification. For each individual lot, manufacturing lot #1 and lot #2 satisfies the design specification. Manufacturing lot #3 exceeds the variance design specification and reaches around 170.  
 ![2_total_summary.PNG](image/2_total_summary.PNG)  
